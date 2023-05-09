@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgContainer > * {
+  flex: 1 1 auto;
+}
+
+/* genel bir css dosyası oluşturduk Layout.jsx in içerisine import ederek butun projelerde kullanılmasını sağladık */
+/* `*` işaretin tüm yapılar için demek oluyor */
